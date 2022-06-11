@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+    
+    background-image: url(../assets/verde.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    margin-left: 25%;
+    margin-right: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+
+}
+
+.container{
+    /*mais flexibilidade menos controle,
+    grid mais controle*/
+    display: flex;
+    /*gap distancia*/
+    gap: 50px;
+}
+
+#post{
+    width: 400px;
+}
+
+i{
+    /*forçar o cursor a virar um ponteiro*/
+    cursor: pointer;
+}
+
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.options{
+    display: flex;
+    gap: 25px;
+
+}
+
+#msg{
+    color: red;
+}
+
+.links a{
+    padding: 2px;
+}
+
